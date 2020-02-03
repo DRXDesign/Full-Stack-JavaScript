@@ -8,3 +8,25 @@ if (answer === "javascript") {
 } else {
     document.write("<h1>Wrong!!</h1>");
 }
+
+//============================================
+/*  3- Build a Random Number Guessing Game */
+//============================================
+
+var randomNumber = Math.floor(Math.random() * 6 + 1);
+var guess = prompt('im thinking of a number between 1  and 6');
+if (parseInt(guess) === randomNumber) {
+    document.write("You Guessed right")
+} else {
+    document.write("You Guessed Wroong!!")
+}
+
+//============================================
+/*  Boolean Values                          */
+//============================================
+if (false) {
+    document.write("The Condition is true")
+} else {
+    document.write("The Condition is wrong")
+}
+
