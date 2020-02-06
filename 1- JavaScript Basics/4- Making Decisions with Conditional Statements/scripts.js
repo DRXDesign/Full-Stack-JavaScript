@@ -109,6 +109,8 @@ if (question == 65) {
     count = count
 };
 
+document.write("<strong> You got </strong> " + count + "<strong> answer right</strong>")
+
 if (count == 5) {
     document.write("You are 1 you win the gold medale");
 } else if (count == 4) {
