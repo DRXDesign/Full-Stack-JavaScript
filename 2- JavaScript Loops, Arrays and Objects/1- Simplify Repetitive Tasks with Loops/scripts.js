@@ -84,3 +84,16 @@ while (true) {
 }
 document.write('<h1> You guessed the right number </h1>')
 document.write('It took you ' + guessCount + ' tries to guess the number ' + randomNumber);
+
+//==========================================
+/* 7- The Refactor Challenge              */
+//==========================================
+function bgColor() {
+    var red = Math.floor(Math.random() * 256);
+    var green = Math.floor(Math.random() * 256);
+    var blue = Math.floor(Math.random() * 256);
+    var rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+}
+for (let index = 0; index < 10; index++) {
+    document.write('<div style="background-color:' + rgbColor + '"></div>');
+}
